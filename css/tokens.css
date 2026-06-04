@@ -1,0 +1,49 @@
+/* Semantic design tokens — neutral dark default. RGB channels for rgb(var(--token)). */
+/* Override :root in your project, or load css/themes/*.css after this file. */
+:root {
+  /* Surfaces */
+  --bg-main: 30 32 38;
+  --bg-surface: 42 45 54;
+
+  /* Text */
+  --text-main: 245 245 247;
+  --text-dim: 180 184 195;
+
+  /* Accent */
+  --accent: 96 165 250;
+  --on-accent: 15 18 24;
+
+  /* Lines */
+  --border: 62 66 78;
+
+  /* Spacing */
+  --gap-xs: 8px;
+  --gap-sm: 12px;
+  --gap-md: 18px;
+  --gap-lg: 24px;
+  --gap-xl: 32px;
+  --gap-2xl: 48px;
+
+  --container-pad: var(--gap-lg);
+  --section-pad-y: var(--gap-2xl);
+  --footer-pad: var(--gap-lg);
+
+  --nav-h: 56px;
+  --max-w: 960px;
+
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --text-sm: 13px;
+  --text-base: 16px;
+  --text-md: 17px;
+  --text-lg: 22px;
+  --text-hero: clamp(36px, 7vw, 72px);
+  --leading-tight: 1;
+  --leading-normal: 1.5;
+
+  --z-header: 10;
+  --radius-none: 0;
+  --radius-sm: 4px;
+
+  --color-focus: 96 165 250;
+  --color-error: 248 113 113;
+}

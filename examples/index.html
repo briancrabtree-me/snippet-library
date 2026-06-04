@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>snippet-library — catalog</title>
+  <style>
+    :root {
+      --bg-main: 30 32 38;
+      --bg-surface: 42 45 54;
+      --text-main: 245 245 247;
+      --text-dim: 180 184 195;
+      --accent: 96 165 250;
+      --on-accent: 15 18 24;
+      --border: 62 66 78;
+      --gap-md: 18px;
+      --gap-lg: 24px;
+      --container-pad: 24px;
+      --section-pad-y: 48px;
+      --footer-pad: 24px;
+      --nav-h: 56px;
+      --max-w: 960px;
+      --font-sans: system-ui, sans-serif;
+      --text-base: 16px;
+      --text-hero: clamp(28px, 5vw, 48px);
+      --leading-normal: 1.5;
+      --z-header: 10;
+      --color-focus: 96 165 250;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/briancrabtree-me/snippet-library@main/css/tokens.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/briancrabtree-me/snippet-library@main/css/layout.css" />
+</head>
+<body>
+  <header class="ui-header">
+    <nav class="ui-nav" aria-label="Primary">
+      <a class="ui-brand" href="#">Snippet<em>.</em>lib</a>
+      <ul class="ui-nav-links">
+        <li><a href="#" aria-current="page">Catalog</a></li>
+        <li><a href="layout.html">Layout demo</a></li>
+        <li><a href="https://github.com/briancrabtree-me/snippet-library">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="ui-main" id="main">
+    <h1 class="ui-hero-title">Snippet catalog</h1>
+    <p class="ui-hero-lead">Copy one file at a time. No build step required.</p>
+
+    <section style="margin-top: var(--gap-lg)">
+      <h2 class="ui-section-title">CSS</h2>
+      <ul class="ui-card" style="list-style: none; padding: var(--gap-md)">
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/css/tokens.css">css/tokens.css</a> — semantic custom properties</li>
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/css/layout.css">css/layout.css</a> — header, nav, hero, cards, footer</li>
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/tree/main/css/themes">css/themes/</a> — neutral-light, neutral-dark, acid-dark</li>
+      </ul>
+    </section>
+
+    <section style="margin-top: var(--gap-lg)">
+      <h2 class="ui-section-title">JavaScript</h2>
+      <ul class="ui-card" style="list-style: none; padding: var(--gap-md)">
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/js/dom-ready.js">js/dom-ready.js</a></li>
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/js/copy-to-clipboard.js">js/copy-to-clipboard.js</a></li>
+      </ul>
+    </section>
+
+    <section style="margin-top: var(--gap-lg)">
+      <h2 class="ui-section-title">HTML</h2>
+      <ul class="ui-card" style="list-style: none; padding: var(--gap-md)">
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/html/skip-link.html">html/skip-link.html</a></li>
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/html/meta-basics.html">html/meta-basics.html</a></li>
+      </ul>
+    </section>
+
+    <section style="margin-top: var(--gap-lg)">
+      <h2 class="ui-section-title">React</h2>
+      <ul class="ui-card" style="list-style: none; padding: var(--gap-md)">
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/react/IdleMount.tsx">react/IdleMount.tsx</a></li>
+        <li><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/react/VisuallyHidden.tsx">react/VisuallyHidden.tsx</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="ui-footer">
+    <p><a href="https://github.com/briancrabtree-me/snippet-library/blob/main/README.md">README</a> · MIT</p>
+  </footer>
+</body>
+</html>

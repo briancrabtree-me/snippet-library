@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>snippet-library — layout example</title>
+  <style>
+    :root {
+      --bg-main: 30 32 38;
+      --bg-surface: 42 45 54;
+      --text-main: 245 245 247;
+      --text-dim: 180 184 195;
+      --accent: 96 165 250;
+      --on-accent: 15 18 24;
+      --border: 62 66 78;
+      --gap-xs: 8px;
+      --gap-sm: 12px;
+      --gap-md: 18px;
+      --gap-lg: 24px;
+      --gap-xl: 32px;
+      --gap-2xl: 48px;
+      --container-pad: 24px;
+      --section-pad-y: 48px;
+      --footer-pad: 24px;
+      --nav-h: 56px;
+      --max-w: 960px;
+      --font-sans: system-ui, sans-serif;
+      --text-sm: 13px;
+      --text-base: 16px;
+      --text-md: 17px;
+      --text-lg: 22px;
+      --text-hero: clamp(36px, 7vw, 72px);
+      --leading-tight: 1;
+      --leading-normal: 1.5;
+      --z-header: 10;
+      --radius-none: 0;
+      --color-focus: 96 165 250;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/briancrabtree-me/snippet-library@main/css/tokens.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/briancrabtree-me/snippet-library@main/css/layout.css" />
+</head>
+<body>
+  <header class="ui-header">
+    <nav class="ui-nav" aria-label="Primary">
+      <a class="ui-brand" href="index.html">Snippet<em>.</em>lib</a>
+      <ul class="ui-nav-links">
+        <li><a href="index.html">Catalog</a></li>
+        <li><a href="#" aria-current="page">Layout</a></li>
+        <li><a href="https://github.com/briancrabtree-me/snippet-library">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="ui-main" id="main">
+    <section class="ui-hero" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="ui-hero-title">Small snippets.<em>Your theme.</em></h1>
+      <p class="ui-hero-lead">
+        Neutral defaults in <code>css/tokens.css</code>. Load <code>css/themes/acid-dark.css</code> or edit <code>:root</code> to customize.
+      </p>
+      <div class="ui-hero-cta">
+        <a class="ui-btn ui-btn-primary" href="index.html">Catalog</a>
+        <a class="ui-btn" href="https://github.com/briancrabtree-me/snippet-library">GitHub</a>
+      </div>
+    </section>
+
+    <section aria-labelledby="blocks-title" style="margin-top: var(--section-pad-y)">
+      <h2 id="blocks-title" class="ui-section-title">Blocks</h2>
+      <div class="ui-grid">
+        <article class="ui-card">
+          <h3>CSS</h3>
+          <p>Tokens, layout, and theme presets.</p>
+        </article>
+        <article class="ui-card">
+          <h3>JS</h3>
+          <p>dom-ready and copy-to-clipboard helpers.</p>
+        </article>
+        <article class="ui-card">
+          <h3>React</h3>
+          <p>IdleMount and VisuallyHidden components.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ui-footer">
+    <p>snippet-library — MIT</p>
+  </footer>
+</body>
+</html>

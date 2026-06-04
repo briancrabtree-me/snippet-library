@@ -1,0 +1,12 @@
+/* Dark theme — same as tokens.css defaults; use when you reset :root elsewhere */
+:root {
+  --bg-main: 30 32 38;
+  --bg-surface: 42 45 54;
+  --text-main: 245 245 247;
+  --text-dim: 180 184 195;
+  --accent: 96 165 250;
+  --on-accent: 15 18 24;
+  --border: 62 66 78;
+  --color-focus: 96 165 250;
+  --color-error: 248 113 113;
+}

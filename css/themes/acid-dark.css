@@ -1,0 +1,12 @@
+/* Acid-on-dark preset — pairs with vanilla-css-tokens palette */
+:root {
+  --bg-main: 10 10 10;
+  --bg-surface: 18 18 18;
+  --text-main: 240 240 240;
+  --text-dim: 190 190 190;
+  --accent: 204 255 0;
+  --on-accent: 10 10 10;
+  --border: 40 40 40;
+  --color-focus: 204 255 0;
+  --color-error: 252 165 165;
+}

@@ -1,0 +1,12 @@
+/* Light theme — load after tokens.css */
+:root {
+  --bg-main: 250 250 252;
+  --bg-surface: 255 255 255;
+  --text-main: 24 26 32;
+  --text-dim: 90 95 110;
+  --accent: 37 99 235;
+  --on-accent: 255 255 255;
+  --border: 220 224 232;
+  --color-focus: 37 99 235;
+  --color-error: 220 38 38;
+}

@@ -1,0 +1,25 @@
+<!-- Paste after <body>. First focusable element for keyboard users. -->
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<style>
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  .skip-link:focus {
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    z-index: 10000;
+    background: #fff;
+    color: #111;
+    outline: 2px solid currentColor;
+  }
+</style>
