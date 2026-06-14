@@ -1,6 +1,6 @@
 # snippet-library
 
-Copy-paste **CSS**, **JavaScript**, **HTML**, and **React** snippets. Neutral dark defaults; swap themes or override `:root` for your palette. No build step.
+Copy-paste **CSS**, **JavaScript**, **HTML**, and **React** snippets. Neutral dark defaults; swap themes or override `:root` for your palette. No build step. README shields use brand hex `#ccff00`.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-ccff00?style=flat-square)](LICENSE)
 [![Layout demo](https://img.shields.io/badge/demo-layout-ccff00?style=flat-square)](examples/layout.html)
