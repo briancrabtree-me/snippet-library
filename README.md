@@ -2,8 +2,11 @@
 
 Copy-paste **CSS**, **JavaScript**, **HTML**, and **React** snippets. Neutral dark defaults; swap themes or override `:root` for your palette. No build step.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-2563eb?style=flat-square)](LICENSE)
-[![Layout demo](https://img.shields.io/badge/demo-layout-2563eb?style=flat-square)](examples/layout.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-ccff00?style=flat-square)](LICENSE)
+[![Layout demo](https://img.shields.io/badge/demo-layout-ccff00?style=flat-square)](examples/layout.html)
+[![Starter](https://img.shields.io/badge/starter-pure_react_19-ccff00?style=flat-square)](https://github.com/briancrabtree-me/pure-react-19-vanilla-starter)
+[![Tokens](https://img.shields.io/badge/css-vanilla_css_tokens-ccff00?style=flat-square)](https://github.com/briancrabtree-me/vanilla-css-tokens)
+[![Store](https://img.shields.io/badge/store-react_pubsub_store-ccff00?style=flat-square)](https://github.com/briancrabtree-me/react-pubsub-store)
 
 **[Catalog](examples/index.html)** · **[Layout demo](examples/layout.html)** · **[vanilla-css-tokens](https://github.com/briancrabtree-me/vanilla-css-tokens)** · **[pure-react-19-vanilla-starter](https://github.com/briancrabtree-me/pure-react-19-vanilla-starter)**
 
